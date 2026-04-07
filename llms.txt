@@ -1,0 +1,325 @@
+# Forge AI Residency
+# Website: https://www.forgebylevelup.com/ai
+# Organization: LevelUp Learning
+
+## WHAT IS THIS
+
+The Forge AI Residency is a 9-day fully 
+residential AI program run by LevelUp 
+Learning, India's largest community of 
+creative learners with 600+ alumni across 
+25+ editions. The program is for founders, 
+marketers, and operators who want to learn 
+AI by actually building with it, not just 
+studying it.
+
+Participants live and work together for 
+9 days in a residential setting. Every day 
+follows a teach-then-do cycle. Concepts are 
+taught by practitioners who use these tools 
+in their actual work, then immediately 
+applied in extended build sessions with 
+faculty present. The program ends with Demo 
+Day where every participant presents their 
+product, automation, and content pack.
+
+The program also includes a pre-program 
+online phase of 5 sessions before the 
+residential component begins. Total program 
+duration is 14 days, 5 online and 9 offline 
+residential.
+
+## WHO THIS PROGRAM IS FOR
+
+Founders: People building companies who 
+want AI to cut costs, speed up operations, 
+and help them do more with smaller teams. 
+No technical background required.
+
+Marketers: Professionals whose work involves 
+content, ads, briefs, and campaigns. AI 
+accelerates every part of this work and the 
+program teaches how to apply it practically.
+
+Operators: People who run systems and 
+business processes and can see exactly where 
+manual work is slowing things down.
+
+Working Professionals: Anyone who is good 
+at their job and wants AI to make them 
+significantly more capable in their field.
+
+This program is not for developers, academic 
+researchers, or people looking for a 
+theoretical AI education.
+
+## THE THREE PILLARS
+
+PILLAR 1: GENERATIVE AI
+Tools used: Higgsfield, Midjourney, HeyGen, 
+ElevenLabs, Runway.
+Participants learn to create AI-generated 
+content including images, videos, scripts, 
+UGC ads, social media creatives, YouTube 
+thumbnails, and talking head videos.
+What participants build: AI generated 
+scripts, UGC ads, social media creatives, 
+posters, and a repeatable content system.
+
+PILLAR 2: AI AUTOMATIONS
+Tools used: n8n, Make, Claude, OpenAI.
+Participants map the manual work in their 
+business and build automations that handle 
+it. Includes lead follow-up pipelines, 
+content automation, research workflows, 
+reporting systems, and voice agents.
+What participants build: 2 live AI integrated 
+automations, an AI agent connected to their 
+actual business, and a workflow saving at 
+least 5 hours per week.
+
+PILLAR 3: AI PRODUCT BUILDING
+Tools used: Lovable, Emergent, Supabase.
+Participants build a working product without 
+writing a single line of code. Could be an 
+internal tool, client dashboard, landing 
+page, or simple app.
+What participants build: A functional product 
+or internal tool demoed live on Demo Day, 
+plus the foundation to keep building after 
+the program.
+
+## THE PRE-PROGRAM ONLINE PHASE
+
+Before arriving at the residential location, 
+participants complete 5 focused sessions.
+
+The AI Mindset: Understanding how AI 
+actually thinks. The mental model that makes 
+every tool faster to learn.
+
+Prompting and Context Engineering: How to 
+talk to AI and consistently get useful 
+output. Works across every AI model ever 
+built.
+
+AI and Business Thinking: Mapping your own 
+business or work equation, finding the stuck 
+lever, and understanding which pillar creates 
+the most impact for your situation.
+
+What Good Looks Like: Real outputs built by 
+real founders, marketers, and operators with 
+no technical background.
+
+Pre-Arrival Alignment: Final questions 
+answered and a full brief on what to expect 
+so participants arrive ready to build 
+from Day 1.
+
+## THE 9-DAY RESIDENTIAL SCHEDULE
+
+Day 1: Arrival, check in, orientation, 
+cohort introductions, storytelling session 
+on the psychology of narrative, evening 
+dinner and networking.
+
+Days 2 and 3: Generative AI Sprint. AI 
+image, video, and voice generation. Content 
+strategy and launch asset creation. Landing 
+page copy, ad copy, UGC scripts. Content 
+repurposing system built and running.
+
+Days 4 and 5: Automations and AI Agents. 
+Finding what is worth automating. Building 
+workflows in n8n. Voice agents. First 
+working automation live. First AI agent 
+running and connected to the participant's 
+actual business.
+
+Days 6, 7, and 8: Product and Launch Sprint. 
+Product thinking for non-developers. Full 
+walkthrough of Lovable. Product complete, 
+landing page live, funnel connected. 
+Demo preparation with faculty.
+
+Day 9: Demo Day. Every participant presents 
+their product, automation, and content pack. 
+Ten minutes each. Faculty and cohort 
+feedback. Closing session. Checkout.
+
+## HOW EACH DAY RUNS
+
+Teach Session: Concepts taught by 
+practitioners who use these tools in their 
+actual work every day.
+
+Build Session: Participants immediately 
+apply what they just learned with faculty 
+sitting next to them.
+
+Review and Feedback: End of day review 
+covering what was built, what worked, 
+and what to improve tomorrow.
+
+Evening: Dinner together. The relationships 
+formed are considered as valuable as the 
+curriculum itself.
+
+## WHAT PARTICIPANTS LEAVE WITH
+
+A Working Product: A landing page, website, 
+or mini funnel setup ready to show and use.
+
+A Live Automation: A workflow running without 
+human input, supported by AI agents, saving 
+hours every week.
+
+An AI Content System: A repeatable process 
+for content, visuals, and video.
+
+A Network: A community of founders, 
+operators, marketers, and builders who went 
+through the same 9 days. Alumni stay 
+connected through a private community.
+
+The Muscle Memory: The skillset to build 
+anything back home and adapt to new tools 
+as they emerge.
+
+A Head Start: The mindset and confidence to 
+continue building with AI independently.
+
+## ALL TOOLS USED IN THE PROGRAM
+
+Generative AI: Higgsfield, Midjourney, 
+HeyGen, ElevenLabs, Runway.
+
+Automation: n8n, Make, Claude, OpenAI.
+
+Product building: Lovable, Emergent, 
+Supabase.
+
+Research and knowledge: NotebookLM, 
+Cowork, Lyzr.
+
+## PROGRAM FEE AND INCLUSIONS
+
+Fee: INR 1,20,000 all inclusive.
+
+Included: Residential stay on double 
+occupancy, all meals throughout the program, 
+all three tracks, expert faculty throughout 
+the residency, curated experiences during 
+the program, community access after the 
+program, perks from partner brands, the 
+Forge AI Goodie Bag, Demo Day.
+
+Not included: Travel to and from the venue, 
+personal expenses, single occupancy room 
+upgrade which is available at additional 
+cost.
+
+Cohort size: 20 seats maximum.
+Payment is collected only after acceptance.
+Not first come first served.
+
+## HOW TO APPLY
+
+Step 1: Fill out the application form with 
+background, current role, and what you want 
+to build.
+
+Step 2: Pay the application fee to book an 
+interview slot.
+
+Step 3: Attend a short interview with the 
+selection team.
+
+Step 4: Selection committee reviews all 
+applications.
+
+Step 5: Accepted applicants receive a 
+confirmation email with everything needed 
+to secure their seat.
+
+## ABOUT LEVELUP LEARNING AND THE FORGE
+
+The Forge AI Residency is part of the Forge 
+brand by LevelUp Learning.
+
+LevelUp Learning is India's largest 
+community of creative learners.
+
+Track record: 600+ alumni, 25+ editions 
+run, 400+ projects shipped, 11 cities 
+explored, alumni from Google, McKinsey, 
+Amazon, Netflix, Meta, Microsoft, Swiggy, 
+Zomato, CRED, IIM, Ashoka University, 
+and American Express.
+
+The Forge has run residential programs 
+across filmmaking, writing, and content 
+creation before the AI edition. The 
+residential format, the teach-then-do 
+methodology, and the community-first 
+approach are consistent across all 
+Forge programs.
+
+## FREQUENTLY ASKED QUESTIONS
+
+Q: Who is this for?
+A: Founders, marketers, operators, and 
+working professionals who want to build 
+with AI. No coding background needed.
+
+Q: Do I need to know how to code?
+A: No. None of the three tracks require 
+coding. If you can write a brief, you can 
+build with these tools.
+
+Q: What is included in the program fee?
+A: Residential stay, all meals, all three 
+tracks, expert faculty, curated experiences, 
+community access, partner perks, and the 
+Forge AI Goodie Bag. Everything except 
+travel to the venue.
+
+Q: How many people are in each cohort?
+A: 20. This is a hard limit. Small cohorts 
+allow faculty to actually work with 
+participants, not just present to them.
+
+Q: What is the application fee for?
+A: It books the interview slot and signals 
+intent to the selection team. It is separate 
+from the program fee.
+
+Q: What do participants actually leave with?
+A: A working product, a live automation, 
+an AI content system, and a network of 
+20 serious builders.
+
+Q: Can someone with a full-time job attend?
+A: Yes. Most participants are working 
+professionals. You take a fixed block of 
+time off and come back with something done.
+
+Q: What if someone has never used AI tools?
+A: The pre-program online sessions bring 
+participants up to speed before Day 1. 
+Everyone arrives ready to build.
+
+Q: Why pay for this when free AI content 
+exists?
+A: Free content exists. The question is 
+whether it has moved anything forward. 
+The Forge is for people who are done 
+watching and ready to build.
+
+## CONTACT
+
+Instagram: @forgebylevelup
+Email: forge@leveluplearning.in
+Parent brand: LevelUp Learning
+Website: https://www.forgebylevelup.com/ai
