@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://forge.bylevelup.com/AI/sitemap.xml
+Sitemap: https://forgebylevelup.com/sitemap.xml

@@ -224,19 +224,17 @@
   var currentMentor = 0;
 
   function showMentor(index) {
+    // Wrap around
+    if (index < 0) index = mentorCards.length - 1;
+    if (index >= mentorCards.length) index = 0;
     currentMentor = index;
-    mentorCards.forEach(function (c) { c.classList.remove('active'); });
-    mentorDots.forEach(function (d) { d.classList.remove('active'); });
-    if (mentorCards[index]) mentorCards[index].classList.add('active');
-    if (mentorDots[index]) mentorDots[index].classList.add('active');
-    // Scroll to active card
-    if (mentorTrack && mentorCards[index]) {
-      var card = mentorCards[index];
-      var trackRect = mentorTrack.getBoundingClientRect();
-      var cardRect = card.getBoundingClientRect();
-      var scrollLeft = mentorTrack.scrollLeft + (cardRect.left - trackRect.left) - (trackRect.width / 2) + (cardRect.width / 2);
-      mentorTrack.scrollTo({ left: scrollLeft, behavior: 'smooth' });
+    // Slide track
+    if (mentorTrack) {
+      mentorTrack.style.transform = 'translateX(-' + (index * 100) + '%)';
     }
+    // Update dots
+    mentorDots.forEach(function (d) { d.classList.remove('active'); });
+    if (mentorDots[index]) mentorDots[index].classList.add('active');
   }
 
   mentorDots.forEach(function (dot) {
@@ -244,20 +242,39 @@
       showMentor(parseInt(this.dataset.mentorDot));
     });
   });
-  mentorCards.forEach(function (card) {
-    card.addEventListener('click', function () {
-      showMentor(parseInt(this.dataset.mentor));
-    });
-  });
   if (mentorPrev) {
     mentorPrev.addEventListener('click', function () {
-      showMentor((currentMentor - 1 + mentorCards.length) % mentorCards.length);
+      showMentor(currentMentor - 1);
     });
   }
   if (mentorNext) {
     mentorNext.addEventListener('click', function () {
-      showMentor((currentMentor + 1) % mentorCards.length);
+      showMentor(currentMentor + 1);
     });
+  }
+
+  // Touch/swipe support for mentor carousel
+  if (mentorTrack) {
+    var mentorTouchStartX = 0;
+    var mentorTouchStartY = 0;
+    var mentorSwiping = false;
+    mentorTrack.addEventListener('touchstart', function (e) {
+      mentorTouchStartX = e.touches[0].clientX;
+      mentorTouchStartY = e.touches[0].clientY;
+      mentorSwiping = false;
+    }, { passive: true });
+    mentorTrack.addEventListener('touchmove', function (e) {
+      var diffX = Math.abs(e.touches[0].clientX - mentorTouchStartX);
+      var diffY = Math.abs(e.touches[0].clientY - mentorTouchStartY);
+      if (diffX > diffY && diffX > 10) mentorSwiping = true;
+    }, { passive: true });
+    mentorTrack.addEventListener('touchend', function (e) {
+      var diff = mentorTouchStartX - e.changedTouches[0].clientX;
+      if (mentorSwiping && Math.abs(diff) > 50) {
+        if (diff > 0) showMentor(currentMentor + 1);
+        else showMentor(currentMentor - 1);
+      }
+    }, { passive: true });
   }
 
   // ---- TESTIMONIALS CAROUSEL ----

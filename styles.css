@@ -566,22 +566,17 @@ h1, h2, h3, h4, h5, h6 { font-family: 'DM Sans', sans-serif; font-weight: 700; l
 /* ============================================================
    MENTORS
    ============================================================ */
-.mentors-carousel { max-width: 900px; margin: 0 auto; }
-.mentors-track { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none; padding: 16px 0; }
-.mentors-track::-webkit-scrollbar { display: none; }
+.mentors-carousel { max-width: 480px; margin: 0 auto; position: relative; overflow: hidden; }
+.mentors-track { display: flex; transition: transform 0.45s cubic-bezier(0.25, 0.1, 0.25, 1); will-change: transform; }
 .mentor-card {
-  flex-shrink: 0; width: 85%; scroll-snap-align: center;
+  flex-shrink: 0; width: 100%;
   background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
-  overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.04); cursor: pointer;
-  transition: transform 0.35s ease-out, opacity 0.35s ease-out; opacity: 0.5; transform: scale(0.85);
+  overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.04);
   display: flex; flex-direction: column;
 }
-@media (min-width: 768px) { .mentor-card { width: 30%; } }
-.mentor-card.active { opacity: 1; transform: scale(1); }
 .mentor-photo { width: 100%; aspect-ratio: 3/4; overflow: hidden; position: relative; }
 .mentor-photo img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
-.mentor-info { padding: 20px; overflow: hidden; max-height: 0; opacity: 0; transition: max-height 0.3s ease-out, opacity 0.3s ease-out; }
-.mentor-card.active .mentor-info { max-height: 500px; opacity: 1; }
+.mentor-info { padding: 20px; }
 .mentor-name { font-weight: 700; font-size: 17px; color: var(--fg); text-align: center; }
 .mentor-role {
   font-size: 11px; color: var(--primary); font-weight: 600; text-transform: uppercase;
